@@ -2,5 +2,5 @@
   sites:
   - name: Website
     url: https://www.craft-rom.pp.ua/
-  - name: Stats
+  - name: Status
     url: https://status.craft-rom.pp.ua/
