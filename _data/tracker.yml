@@ -1,0 +1,6 @@
+- group: Websites
+  sites:
+  - name: Website
+    url: https://www.craft-rom.pp.ua/
+  - name: Stats
+    url: https://stats.craft-rom.pp.ua/

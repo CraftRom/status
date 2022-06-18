@@ -1,0 +1,34 @@
+name: Status tracking
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Check status
+      env:
+        USERNAME: ${{ secrets.USERNAME }}
+        PASSWORD: ${{ secrets.PASSWORD }}
+        TELEGRAM_CHAT_ID: "-1001649470192"
+        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      run: |
+        docker build -t tracker:latest .
+        docker run -v ${{ github.workspace }}:/app -e USERNAME=$USERNAME -e PASSWORD=$PASSWORD -e GITHUB_REPOSITORY=$GITHUB_REPOSITORY -e TELEGRAM_CHAT_ID=$TELEGRAM_CHAT_ID -e TELEGRAM_TOKEN=$TELEGRAM_TOKEN tracker:latest
+        git config --global user.email "melles.android@gmail.com"
+        git config --global user.name "melles1991"
+        git add .
+        changed=$(git diff --numstat --cached | wc -l)
+        if [[ "$changed" -eq 0 ]]; then
+        echo "State of status remains same as of previous check. Exiting"
+        exit 0
+        fi
+        git commit -m "Sync: $(date)"
+        git push

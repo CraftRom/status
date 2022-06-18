@@ -1,0 +1,7 @@
+Websites:
+  group-status: operational
+  sites:
+    Website: operational
+    Stats: operational
+statement: All systems are operational
+status-class: no-issues
