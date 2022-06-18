@@ -207,16 +207,24 @@ main {
   display: block;
 }
 .status-card.no-issues .statement::before {
-  content: "";
-  position: absolute;
-  --size: 16px;
-  height: var(--size);
-  width: var(--size);
-  background-color: var(--accent-green);
-  border-radius: 50%;
-  right: 1.5rem;
-  top: 50%;
-  transform: translateY(-50%);
+    content: "new_releases";
+    font-family: 'Material Icons';
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
 }
 .status-card.critical {
   color: var(--accent-red);
@@ -225,16 +233,24 @@ main {
   display: block;
 }
 .status-card.critical .statement::before {
-  content: "";
-  position: absolute;
-  --size: 16px;
-  height: var(--size);
-  width: var(--size);
-  background-color: var(--accent-red);
-  border-radius: 50%;
-  right: 1.5rem;
-  top: 50%;
-  transform: translateY(-50%);
+    content: "dangerous";
+    font-family: 'Material Icons';
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
 }
 .status-card.partial {
   color: var(--accent-yellow);
@@ -243,16 +259,24 @@ main {
   display: block;
 }
 .status-card.partial .statement::before {
-  content: "";
-  position: absolute;
-  --size: 16px;
-  height: var(--size);
-  width: var(--size);
-  background-color: var(--accent-yellow);
-  border-radius: 50%;
-  right: 1.5rem;
-  top: 50%;
-  transform: translateY(-50%);
+    content: "report";
+    font-family: 'Material Icons';
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
 }
 
 .services-status-wrapper {
