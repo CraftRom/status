@@ -1,7 +1,7 @@
 Websites:
-  group-status: partial
+  group-status: major
   sites:
-    Stats: partial
+    Stats: major
     Website: operational
-statement: We are suffering a partial outage
-status-class: partial
+statement: We are suffering a major outage
+status-class: critical
