@@ -342,21 +342,21 @@ main {
   -webkit-font-smoothing: antialiased;  
   right: 1rem;
   top: 50%;
-  font-size: 12px;
+  font-size: 18px;
   background-color: transparent;
   transform: translateY(-50%);
   border-radius: 50%;
 }
 .service-card li.success::after {
-  background-color: var(--accent-green);
+  color: var(--accent-green);
   content: "new_releases";
 }
 .service-card li.warning::after {
-  background-color: var(--accent-yellow);
+  color: var(--accent-yellow);
   content: "report";
 }
 .service-card li.danger::after {
-  background-color: var(--accent-red);
+  color: var(--accent-red);
   content: "dangerous";
 }
 .service-card li h4 {
