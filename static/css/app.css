@@ -215,7 +215,7 @@ main {
     transform: translateY(-50%);
     font-weight: normal;
     font-style: normal;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -241,7 +241,7 @@ main {
     transform: translateY(-50%);
     font-weight: normal;
     font-style: normal;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -267,7 +267,7 @@ main {
     transform: translateY(-50%);
     font-weight: normal;
     font-style: normal;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1;
     letter-spacing: normal;
     text-transform: none;
@@ -327,25 +327,37 @@ main {
   position: relative;
 }
 .service-card li::after {
-  content: "";
   position: absolute;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;  
   right: 1rem;
   top: 50%;
-  --size: 12px;
-  height: var(--size);
-  width: var(--size);
+  font-size: 12px;
   background-color: transparent;
   transform: translateY(-50%);
   border-radius: 50%;
 }
 .service-card li.success::after {
   background-color: var(--accent-green);
+  content: "new_releases";
 }
 .service-card li.warning::after {
   background-color: var(--accent-yellow);
+  content: "report";
 }
 .service-card li.danger::after {
   background-color: var(--accent-red);
+  content: "dangerous";
 }
 .service-card li h4 {
   display: inline-flex;
