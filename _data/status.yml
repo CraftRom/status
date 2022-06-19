@@ -1,7 +1,7 @@
 Websites:
-  group-status: major
+  group-status: operational
   sites:
-    Status: major
+    Status: operational
     Website: operational
-statement: We are suffering a major outage
-status-class: critical
+statement: All systems are operational
+status-class: no-issues
