@@ -30,9 +30,9 @@ ul {
   --body-bg: #f1f3f5;
   --text: #4a5568;
   --text-muted: #718096;
-  --accent-green: #51cf66;
-  --accent-red: #ff6b6b;
-  --accent-yellow: #fab005;
+  --accent-green: #4CAF50;
+  --accent-red: #E53935;
+  --accent-yellow: #FF9800;
   --primary: #2196f3;
 }
 
@@ -207,7 +207,7 @@ main {
   display: block;
 }
 .status-card.no-issues .statement::before {
-    content: "new_releases";
+    content: "verified";
     font-family: 'Material Icons';
     position: absolute;
     right: 1.5rem;
@@ -349,7 +349,7 @@ main {
 }
 .service-card li.success::after {
   color: var(--accent-green);
-  content: "new_releases";
+  content: "verified";
 }
 .service-card li.warning::after {
   color: var(--accent-yellow);
