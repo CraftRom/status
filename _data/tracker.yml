@@ -3,4 +3,12 @@
   - name: Website
     url: https://www.craft-rom.pp.ua/
   - name: Status
-    url: http://status.craft-rom.pp.ua/
+    url: https://status.craft-rom.pp.ua/
+- group: Domains
+  sites:
+  - name: pp.ua
+    url: https://www.craft-rom.pp.ua/
+  - name: org.ua
+    url: https://www.craft-rom.org.ua/
+    
+    
