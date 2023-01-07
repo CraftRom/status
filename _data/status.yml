@@ -1,7 +1,12 @@
+Domains:
+  group-status: partial
+  sites:
+    org.ua: partial
+    pp.ua: operational
 Websites:
   group-status: operational
   sites:
     Status: operational
     Website: operational
-statement: All systems are operational
-status-class: no-issues
+statement: We are suffering a partial outage
+status-class: partial
