@@ -10,5 +10,7 @@
     url: https://www.craft-rom.pp.ua/
   - name: org.ua
     url: https://www.craft-rom.org.ua/
-    
-    
+- group: Others
+  sites:
+  - name: SourceForge
+    url: https://sourceforge.net/projects/exodusos/files/ExodusOS
