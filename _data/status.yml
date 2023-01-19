@@ -4,9 +4,9 @@ Domains:
     org.ua: major
     pp.ua: operational
 Others:
-  group-status: operational
+  group-status: partial
   sites:
-    SourceForge: operational
+    SourceForge: partial
 Websites:
   group-status: operational
   sites:
