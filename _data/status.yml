@@ -8,10 +8,10 @@ Others:
   sites:
     SourceForge: operational
 Websites:
-  group-status: major
+  group-status: operational
   sites:
-    Exodus OS Download: partial
-    Status: major
+    Exodus OS Download: operational
+    Status: operational
     Website Craft Rom: operational
 statement: We are suffering a major outage
 status-class: critical
