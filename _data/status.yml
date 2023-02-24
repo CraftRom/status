@@ -2,7 +2,7 @@ Domains:
   group-status: major
   sites:
     org.ua: major
-    pp.ua: major
+    pp.ua: operational
 Others:
   group-status: operational
   sites:
@@ -10,8 +10,8 @@ Others:
 Websites:
   group-status: major
   sites:
-    Exodus OS Download: partial
+    Exodus OS Download: operational
     Status: major
-    Website Craft Rom: partial
+    Website Craft Rom: major
 statement: We are suffering a major outage
 status-class: critical
