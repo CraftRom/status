@@ -2,16 +2,16 @@ Domains:
   group-status: major
   sites:
     org.ua: major
-    pp.ua: partial
+    pp.ua: operational
 Others:
   group-status: operational
   sites:
     SourceForge: operational
 Websites:
-  group-status: partial
+  group-status: operational
   sites:
-    Exodus OS Download: partial
-    Status: partial
-    Website Craft Rom: partial
+    Exodus OS Download: operational
+    Status: operational
+    Website Craft Rom: operational
 statement: We are suffering a major outage
 status-class: critical
